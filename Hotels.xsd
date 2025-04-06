@@ -1,41 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://ashur-gg.github.io/cse445_a4/Hotels.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            targetNamespace="https://ashur-gg.github.io/cse445_a4/Hotels.xsd" 
+            elementFormDefault="qualified" 
+            attributeFormDefault="unqualified">
 
-  <!-- Hotels root -->
+  <!-- root -->
   <xsd:element name="Hotels">
     <xsd:complexType>
       <xsd:sequence>
-        <!-- Hotel Main -->
+        <!-- Hotel can be multiple -->
         <xsd:element name="Hotel" maxOccurs="unbounded">
           <xsd:complexType>
             <xsd:sequence>
-                <!-- elements -->
+              <!-- elements -->
               <xsd:element name="Name" type="xsd:string"/>
               
+              <!-- Address element with a req nearst -->
               <xsd:element name="Address">
                 <xsd:complexType>
                   <xsd:sequence>
                     <xsd:element name="Number" type="xsd:string"/>
                     <xsd:element name="Street" type="xsd:string"/>
-                    <xsd:element name="City"   type="xsd:string"/>
-                    <xsd:element name="State"  type="xsd:string"/>
-                    <xsd:element name="Zip"    type="xsd:string"/>
+                    <xsd:element name="City" type="xsd:string"/>
+                    <xsd:element name="State" type="xsd:string"/>
+                    <xsd:element name="Zip" type="xsd:string"/>
                   </xsd:sequence>
+                  <!-- NearstAirport = req attribute -->
+                  <xsd:attribute name="NearstAirport" type="xsd:string" use="required"/>
                 </xsd:complexType>
               </xsd:element>
               
-              
-              <xsd:element name="Rating" type="xsd:string" />
-              
-              <!-- required attr -->
-              <xsd:element name="NearstAirport" type="xsd:string" minOccurs="1"/>
+              <!-- Phone element can be multiple -->
+              <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
             </xsd:sequence>
-            
-            <xsd:attribute name="Phone" type="xsd:string" maxOccurs = "unbounded"/>
-
+            <!-- Rating as an option -->
+            <xsd:attribute name="Rating" type="xsd:string" use="optional"/>
           </xsd:complexType>
         </xsd:element>
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
+  
 </xsd:schema>
