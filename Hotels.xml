@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/ashur-gg/cse445_a4/refs/heads/main/Hotels.xsd">
+<Hotels xmlns = "https://ashur-gg.github.io/cse445_a4/Hotels.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://ashur-gg.github.io/cse445_a4/Hotels.xsd https://raw.githubusercontent.com/ashur-gg/cse445_a4/refs/heads/main/Hotels.xsd">
   
   <!-- 1. Westin  -->
   <Hotel>
