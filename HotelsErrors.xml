@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  
+  <!-- 1. Westin  -->
+  <Hotel>
+    <Name>Westin</Name>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Rating>4.2</Rating>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+  </Hotel>
+  
+  <!-- 2. MGM Grand Hotel -->
+  <Hotel>
+    <Name>MGM Grand Hotel</Name>
+    <Name>MGEEM</Name>
+    <Address>
+      <Number>3799</Number>
+      <Street>S Las Vegas Boulevard</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+    </Address>
+    <Rating>4.5</Rating>
+    <NearestAirport>McCarran International</NearestAirport>
+  </Hotel>
+  
+  <!-- 3. Mandalay Bay Resort and Casino -->
+  <Hotel>
+    <Name>Mandalay Bay Resort and Casino</Name>
+    <Address>
+      <Number>3950</Number>
+      <Street>S Las Vegas Boulevard</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89119</Zip>
+    <NearestAirport>McCarran International</NearestAirport>
+    <Phone>702-632-7777</Phone>
+  </Hotel>
+  
+  <!-- 4. Bellagio Hotel and Casino -->
+  <Hotel>
+    <Name>Bellagio Hotel and Casino</Name>
+    <Address>
+      <Number>3600</Number>
+      <Street>S Las Vegas Boulevard</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+    </Address>
+    <Rating>4.7</Rating>
+    <Phone>702-693-7111</Phone>
+    <Phone>888-987-6667</Phone>
+  </Hotel>
+  
+  <!-- 5. Caesars Palace -->
+  <Hotel>
+    <Name>Caesars Palace</Name>
+    <Address>
+      <Number>3570</Number>
+      <Street>S Las Vegas Boulevard</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+    </Address>
+    <NearestAirport>McCarran International</NearestAirport>
+    <Phone>702-735-7111</Phone>
+  </Hotel>
+  
+  <!-- 6. The Venetian Resort Las Vegas -->
+  <Hotel>
+    <Name>The Venetian Resort Las Vegas</Name>
+    <Address>
+      <Number>3355</Number>
+      <Street>S Las Vegas Boulevard</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+    </Address>
+    <Rating>4.6</Rating>
+    <NearestAirport>McCarran International</NearestAirport>
+    <Phone>702-414-1000</Phone>
+  </Hotel>
+  
+  <!-- 7. Wynn Las Vegas -->
+  <Hotel>
+    <Name>Wynn Las Vegas</Name>
+    <Address>
+      <Number>3131</Number>
+      <Street>S Las Vegas Boulevard </Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+    </Address>
+    <Rating>4.8</Rating>
+    <NearestAirport>McCarran International</NearestAirport>
+    <Phone>702-770-7000</Phone>
+  </Hotel>
+  
+  <!-- 8. Treasure Island Hotel & Casino -->
+  <Hotel>
+    <Name>Treasure Island Hotel &amp; Casino</Name>
+    <Address>
+      <Number>3300</Number>
+      <Street>S Las Vegas Boulevard </Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+    </Address>
+    <NearestAirport>McCarran International</NearestAirport>
+    <Phone>702-784-7000</Phone>
+  </Hotel>
+  
+  <!-- 9. Paris Las Vegas -->
+  <Hotel>
+    <Name>Paris Las Vegas</Name>
+    <Address>
+      <Number>3655</Number>
+      <Street>S Las Vegas Boulevard </Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+    </Address>
+    <NearestAirport>McCarran International</NearestAirport>
+    <Phone>702-385-7111</Phone>
+  </Hotel>
+  
+  <!-- 10. Aria Resort & Casino -->
+  <Hotel>
+    <Name>Aria Resort &amp; Casino</Name>
+    <Address>
+      <Number>3730</Number>
+      <Street>S Las Vegas Boulevard </Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89158</Zip>
+    </Address>
+    <Rating>4.5</Rating>
+    <NearestAirport>McCarran International</NearestAirport>
+    <Phone>702-590-7111</Phone>
+  </Hotel>
+  
+</Hotel>
