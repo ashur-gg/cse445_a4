@@ -28,7 +28,7 @@
               <xsd:element name="Rating" type="xsd:string" />
               
               <!-- required attr -->
-              <xsd:element name="NearstAirport" type="xsd:string" use="required"/>
+              <xsd:element name="NearstAirport" type="xsd:string" minOccurs="1"/>
             </xsd:sequence>
             
             <xsd:attribute name="Phone" type="xsd:string" maxOccurs = "unbounded"/>
