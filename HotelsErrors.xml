@@ -39,14 +39,13 @@
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89119</Zip>
-    </Address>
     <Phone>702-632-7777</Phone>
   </Hotel>
   
   <!-- 4. Bellagio Hotel and Casino -->
   <Hotel Rating="4.7">
     <Name>Bellagio Hotel and Casino</Name>
-    <Address NearstAirport="McCarran International">
+    <Address >
       <Number>3600</Number>
       <Street>S Las Vegas Boulevard</Street>
       <City>Las Vegas</City>
