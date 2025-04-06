@@ -1,63 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel  xmlns = "https://ashur-gg.github.io/cse445_a4/Hotels.xsd"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://ashur-gg.github.io/cse445_a4/Hotels.xsd https://raw.githubusercontent.com/ashur-gg/cse445_a4/refs/heads/main/Hotels.xsd">
+<Hotel xmlns="https://ashur-gg.github.io/cse445_a4/Hotels.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="https://ashur-gg.github.io/cse445_a4/Hotels.xsd https://raw.githubusercontent.com/ashur-gg/cse445_a4/refs/heads/main/Hotels.xsd">
   
   <!-- 1. Westin  -->
-  <Hotel>
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
-    <Address>
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E. 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <Rating>4.2</Rating>
-    <NearstAirport>Sky Harbor</NearstAirport>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
   </Hotel>
   
   <!-- 2. MGM Grand Hotel -->
-  <Hotel>
+  <Hotel Rating="4.5">
     <Name>MGM Grand Hotel</Name>
     <Name>MGEEM</Name>
-    <Address>
+    <Address NearstAirport="McCarran International">
       <Number>3799</Number>
       <Street>S Las Vegas Boulevard</Street>
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89109</Zip>
     </Address>
-    <Rating>4.5</Rating>
-    <NearstAirport>McCarran International</NearstAirport>
   </Hotel>
   
   <!-- 3. Mandalay Bay Resort and Casino -->
   <Hotel>
     <Name>Mandalay Bay Resort and Casino</Name>
-    <Address>
+    <Address NearstAirport="McCarran International">
       <Number>3950</Number>
       <Street>S Las Vegas Boulevard</Street>
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89119</Zip>
-    <NearstAirport>McCarran International</NearstAirport>
+    <!-- Intentional error: missing closing tag for Address -->
     <Phone>702-632-7777</Phone>
   </Hotel>
   
   <!-- 4. Bellagio Hotel and Casino -->
-  <Hotel>
+  <Hotel Rating="4.7">
     <Name>Bellagio Hotel and Casino</Name>
-    <Address>
+    <Address NearstAirport="McCarran International">
       <Number>3600</Number>
       <Street>S Las Vegas Boulevard</Street>
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89109</Zip>
     </Address>
-    <Rating>4.7</Rating>
     <Phone>702-693-7111</Phone>
     <Phone>888-987-6667</Phone>
   </Hotel>
@@ -65,87 +60,78 @@
   <!-- 5. Caesars Palace -->
   <Hotel>
     <Name>Caesars Palace</Name>
-    <Address>
+    <Address NearstAirport="McCarran International">
       <Number>3570</Number>
       <Street>S Las Vegas Boulevard</Street>
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89109</Zip>
     </Address>
-    <NearstAirport>McCarran International</NearstAirport>
     <Phone>702-735-7111</Phone>
   </Hotel>
   
   <!-- 6. The Venetian Resort Las Vegas -->
-  <Hotel>
+  <Hotel Rating="4.6">
     <Name>The Venetian Resort Las Vegas</Name>
-    <Address>
+    <Address NearstAirport="McCarran International">
       <Number>3355</Number>
       <Street>S Las Vegas Boulevard</Street>
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89109</Zip>
     </Address>
-    <Rating>4.6</Rating>
-    <NearstAirport>McCarran International</NearstAirport>
     <Phone>702-414-1000</Phone>
   </Hotel>
   
   <!-- 7. Wynn Las Vegas -->
-  <Hotel>
+  <Hotel Rating="4.8">
     <Name>Wynn Las Vegas</Name>
-    <Address>
+    <Address NearstAirport="McCarran International">
       <Number>3131</Number>
       <Street>S Las Vegas Boulevard </Street>
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89109</Zip>
     </Address>
-    <Rating>4.8</Rating>
-    <NearstAirport>McCarran International</NearstAirport>
     <Phone>702-770-7000</Phone>
   </Hotel>
   
   <!-- 8. Treasure Island Hotel & Casino -->
   <Hotel>
     <Name>Treasure Island Hotel &amp; Casino</Name>
-    <Address>
+    <Address NearstAirport="McCarran International">
       <Number>3300</Number>
       <Street>S Las Vegas Boulevard </Street>
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89109</Zip>
     </Address>
-    <NearstAirport>McCarran International</NearstAirport>
     <Phone>702-784-7000</Phone>
   </Hotel>
   
   <!-- 9. Paris Las Vegas -->
   <Hotel>
     <Name>Paris Las Vegas</Name>
-    <Address>
+    <Address NearstAirport="McCarran International">
       <Number>3655</Number>
       <Street>S Las Vegas Boulevard </Street>
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89109</Zip>
     </Address>
-    <NearstAirport>McCarran International</NearstAirport>
     <Phone>702-385-7111</Phone>
   </Hotel>
   
   <!-- 10. Aria Resort & Casino -->
-  <Hotel>
+  <Hotel Rating="4.5">
     <Name>Aria Resort &amp; Casino</Name>
-    <Address>
+    <Address NearstAirport="McCarran International">
       <Number>3730</Number>
       <Street>S Las Vegas Boulevard </Street>
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89158</Zip>
     </Address>
-    <Rating>4.5</Rating>
-    <NearstAirport>McCarran International</NearstAirport>
     <Phone>702-590-7111</Phone>
   </Hotel>
   
