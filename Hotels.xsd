@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema targetNamespace="https://ashur-gg.github.io/cse445_a4/Hotels.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified">
-</xsd:schema>
+<xsd:schema targetNamespace="https://ashur-gg.github.io/cse445_a4/Hotels.xsdd" elementFormDefault="qualified" attributeFormDefault="unqualified">
 
   <!-- Hotels root -->
-  <xs:element name="Hotels">
-    <xs:complexType>
-      <xs:sequence>
+  <xsd:element name="Hotels">
+    <xsd:complexType>
+      <xsd:sequence>
         <!-- Hotel Main -->
-        <xs:element name="Hotel" maxOccurs="unbounded">
-          <xs:complexType>
-            <xs:sequence>
+        <xsd:element name="Hotel" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
                 <!-- elements -->
-              <xs:element name="Name" type="xs:string"/>
+              <xsd:element name="Name" type="xsd:string"/>
               
-              <xs:element name="Address">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="Number" type="xs:string"/>
-                    <xs:element name="Street" type="xs:string"/>
-                    <xs:element name="City"   type="xs:string"/>
-                    <xs:element name="State"  type="xs:string"/>
-                    <xs:element name="Zip"    type="xs:string"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
+              <xsd:element name="Address">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Number" type="xsd:string"/>
+                    <xsd:element name="Street" type="xsd:string"/>
+                    <xsd:element name="City"   type="xsd:string"/>
+                    <xsd:element name="State"  type="xsd:string"/>
+                    <xsd:element name="Zip"    type="xsd:string"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
               
               
-              <xs:element name="Rating" type="xs:string" />
+              <xsd:element name="Rating" type="xsd:string" />
               
               <!-- required attr -->
-              <xs:element name="NearstAirport" type="xs:string" use="required"/>
-            </xs:sequence>
+              <xsd:element name="NearstAirport" type="xsd:string" use="required"/>
+            </xsd:sequence>
             
-            <xs:attribute name="Phone" type="xs:string" maxOccurs = "unbounded"/>
+            <xsd:attribute name="Phone" type="xsd:string" maxOccurs = "unbounded"/>
 
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-</xs:schema>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
