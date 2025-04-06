@@ -39,7 +39,7 @@
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89119</Zip>
-    <!-- Intentional error: missing closing tag for Address -->
+    </Address>
     <Phone>702-632-7777</Phone>
   </Hotel>
   
